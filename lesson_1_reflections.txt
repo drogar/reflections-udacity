@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It highlighted the changed portions - which is where the bug was most likely
+    introduced. This reduced the amount of text/code I had to review.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    - If shared - see what other programmers have done, learning from their choices
+    - No worries about making upcoming changes or trying out things that may not work
+    - Watch the growth of a file and see when multiple responsibilities come
+      in to a class (for instance) helping decide where/what to refactor.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual pros:
+     - Can size the commit appropriately
+     - Can follow standards (e.g., all tests must pass; typo/whitespace changes in own commit, etc.)
+    Manual Cons:
+     - Relies on the HUMAN to do it. Can lead to errors (forgetting to commit, missed files)
+     - When to commit is subjective - different devs will commit at different times.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Code is interrelated, with a logical change requiring changes in multiple files, As git
+    was targetted as a code repository, it makes sense for it to be multiple files.
+ 
+    Google Docs is document centric implying that each document has a life of its own.
+    There may be interrelations between documents but that is not as likely as with code.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Use git log to see commits from the past and then use the ids to do git diff on those commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can find exactly where the break was introduced, allowing it to be fixed more quickly
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Anything remotely related to code or text files

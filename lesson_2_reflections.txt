@@ -24,8 +24,18 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+   - Different features
+   - Bug fix branches
+   - Different people working on code base
+   - new features
+   - Removing old code
+   - process
+   
+
 How do the diagrams help you visualize the branch structure?
 
+    - You can see the history and where branches diverged from each other.
+    
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 

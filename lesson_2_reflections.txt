@@ -39,5 +39,15 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    - A new commit (merge commit) is introduced which has _both_ end commits of the
+      branches as parents. Additionally all the changes introduced by each branch
+      are kept.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+    pros:
+      - Reduces the burden that manually merging would entail
+      - Speed, reduction of errors
+    cons:
+      - Resolution may not be exactly what you want????
